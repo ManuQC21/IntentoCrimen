@@ -24,6 +24,14 @@
         android:layout_height="wrap_content"
         android:textAppearance="?attr/textAppearanceHeadline5"
         android:text="@string/etiqueta_detalle_crimen"/>
+    <EditText
+        android:id="@+id/txt_detalle_crimen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:hint="@string/pista_detalle_crimen"
+        android:importantForAutofill="no"
+        android:inputType="text"/>
     <Button
         android:id="@+id/btn_fecha_crimen"
         android:layout_width="match_parent"

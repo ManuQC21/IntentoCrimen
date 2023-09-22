@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">CrimenIntent</string>
     <string name="pista_titulo_crimen">Ingrese un Título para el crimen</string>
+    <string name="pista_detalle_crimen">Ingrese un Título para el crimen</string>
     <string name="etiqueta_titulo_crimen">Título</string>
     <string name="etiqueta_detalle_crimen">Detalle</string>
     <string name="etiqueta_crimen_resuelto">Resuelto</string>

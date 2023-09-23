@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.fragment.app.FragmentContainerView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/contenedor_fragmento"
-    android:name="com.upao.crimenintent.presentacion.CrimenFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentacion.MainActivity">
+    android:orientation="horizontal">
 
-</androidx.fragment.app.FragmentContainerView>
+    <!--  (izquierda) -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/contenedor_fragmento"
+        android:name="com.upao.crimenintent.presentacion.CrimenFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!--(derecha) -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/contenedor_lista_fragmento"
+        android:name="com.upao.crimenintent.presentacion.CrimenListaFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
